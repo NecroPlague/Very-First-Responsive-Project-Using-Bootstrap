@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/vazir.eot");
+    src: url("../fonts/vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/vazir.woff2") format("woff2"),
+      url("../fonts/vazir.woff") format("woff"), url("/fonts/") format("truetype");
+    font-weight: normal;
+    font-display: swap;
+  }
+
+body   {
+    font-family: Vazir ;
+}
+
+/* HEADER STYLES */
+
+#header {
+  background: url(../images/wallbg.jpg) no-repeat center center;
+  height: 600px;
+  background-attachment: fixed;
+}
+
+/* CARDS STYLES */
+
+#cards  {
+  padding: 90px 0px;
+  background-color: #f8f9fa;
+}
+
+#cards .card-item .icon svg {
+  color: #1e85e5;
+  font-size: 50px;
+}
